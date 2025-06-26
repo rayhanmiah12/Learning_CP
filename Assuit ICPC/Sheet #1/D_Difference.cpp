@@ -1,9 +1,10 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int A, B, C, D; cin >> A >> B >> C >> D;
-    int X = (A * B) - (C * D);
-    cout << "Difference = " << X << endl;
+    long long int a, b, c, d, x;
+    cin >> a >> b >> c >> d;
+    x = (a*b)-(c*d);
+    cout << "Difference = " << x ;
     return 0;
 }
