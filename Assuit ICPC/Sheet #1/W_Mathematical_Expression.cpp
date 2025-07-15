@@ -1,4 +1,4 @@
- #include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -14,7 +14,7 @@ int main() {
     } else if (S == '*') {
         result = A * B;
     }
-    
+
     if (result == C) {
         cout << "Yes" << endl;
     } else {
