@@ -7,11 +7,7 @@ int main() {
     char c;
     float d;
     double e;
-
-    // Reading input
     cin >> a >> b >> c >> d >> e;
-
-    // Printing each value on a new line
     cout << a << endl;
     cout << b << endl;
     cout << c << endl;
